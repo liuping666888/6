@@ -92,22 +92,39 @@
     }
   ],
   "parses": [
-      {
-    "name":"默认","type":3,"url":"Demo"
+    {
+    "name": "11",
+    "type": 1,
+    "url": "http://124.222.68.182/jiexi/4kJX.php/?url="
     },
     {
-    "name":"Json并发","type":2,"url":"Parallel"
-    },
-    {   
-    "name":"Json轮询", "type":2, "url":"Sequence"
-    },  
-        {
-    "name": "LTRX",
+    "name": "fuqi",
     "type": 1,
-    "url": "https://svip.spchat.top/api/?type=ys&key=bKemW41JnxmQb4l67h&url=",
+    "url": "https://play.fuqizhishi.com/maotv/API.php?appkey=QQ172598364&url="
+    },
+     {
+    "name": "parwix1",
+    "type": 0,
+    "url": "https://jx.parwix.com:4433/player/?url=",
     "ext": {
         "flag": [
-            "rx"
+            "qq",
+            "腾讯",
+            "qiyi",
+            "爱奇艺",
+            "奇艺",
+            "youku",
+            "优酷",
+            "mgtv",
+            "芒果",
+            "letv",
+            "乐视",
+            "pptv",
+            "PPTV",
+            "sohu",
+            "bilibili",
+            "哔哩哔哩",
+            "哔哩"
         ]
       }
     },
@@ -148,51 +165,10 @@
         ]
       }
     },
-     {
-    "name": "9",
-    "type": 1,
-    "url": "http://110.42.2.115:880/analysis/json/?uid=2100&my=fgjnoqstLMRUZ03489&url="
-    },
-    {
-    "name": "fuqi",
-    "type": 1,
-    "url": "https://play.fuqizhishi.com/maotv/API.php?appkey=QQ172598364&url="
-    },
-    {
-    "name": "11",
-    "type": 1,
-    "url": "http://124.222.68.182/jiexi/4kJX.php/?url="
-    },
     {
     "name": "虾米",
     "type": 1,
     "url": "https://jx.xmflv.com/?url="
-    },
-        {
-    "name": "parwix1",
-    "type": 0,
-    "url": "https://jx.parwix.com:4433/player/?url=",
-    "ext": {
-        "flag": [
-            "qq",
-            "腾讯",
-            "qiyi",
-            "爱奇艺",
-            "奇艺",
-            "youku",
-            "优酷",
-            "mgtv",
-            "芒果",
-            "letv",
-            "乐视",
-            "pptv",
-            "PPTV",
-            "sohu",
-            "bilibili",
-            "哔哩哔哩",
-            "哔哩"
-        ]
-      }
     }
   ],
   "flags": [
