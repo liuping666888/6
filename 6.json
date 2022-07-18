@@ -8,29 +8,10 @@
 
     "sites":[
     {
-       "key":"Gitcafe",
-       "name":"小纸条",
+       "key":"csp_Kunyu77",
+       "name":"七七(爬虫)",
        "type":3,
-       "api":"csp_GitCafe",
-       "searchable":1,
-       "quickSearch":1,
-       "filterable":1,
-       "ext":"1f373a68733e4dafa5fa28dca9826b35"
-    },
-    {
-       "key":"csp_SP360",
-       "name":"360(爬虫)",
-       "type":3,
-       "api":"csp_SP360",
-       "searchable":1,
-       "quickSearch":1,
-       "filterable":1
-    },
-    {
-       "key":"csp_Kuaikan",
-       "name":"快看(爬虫)",
-       "type":3,
-       "api":"csp_Kuaikan",
+       "api":"csp_Kunyu77",
        "searchable":1,
        "quickSearch":1,
        "filterable":1
@@ -71,15 +52,6 @@
        "searchable":1,
        "quickSearch":1,
        "filterable": 1
-    },
-    {
-       "key":"csp_Kunyu77",
-       "name":"七七(爬虫)",
-       "type":3,
-       "api":"csp_Kunyu77",
-       "searchable":1,
-       "quickSearch":1,
-       "filterable":1
     },
     {
        "key":"csp_Cokemv",
@@ -145,14 +117,14 @@
        "filterable":1
     },
     {
-       "key":"csp_xpath_wmkk",
-       "name":"完美看看(XP)",
+       "key":"Gitcafe",
+       "name":"小纸条",
        "type":3,
-       "api":"csp_XPath",
+       "api":"csp_GitCafe",
        "searchable":1,
        "quickSearch":1,
-       "filterable":0,
-       "ext":"http://home.jundie.top:81/Cat/MaooXP/wanmeikk.json"
+       "filterable":1,
+       "ext":"1f373a68733e4dafa5fa28dca9826b35"
     },
     {
        "key":"AliPS",
@@ -185,14 +157,13 @@
        "ext":"1f373a68733e4dafa5fa28dca9826b35"
     }, 
     {
-       "key": "csp_xpath_网络搜集库qiumi",
-       "name":"球迷看球️️️",
-       "type": 3,
-       "api": "csp_XPathFilter",
-       "searchable": 1,
-       "quickSearch": 1,
-       "filterable": 1,
-       "ext": "https://cdn.staticaly.com/gh/tvba/x/main/516-qiumi.js"
+       "key":"csp_SP360",
+       "name":"360(爬虫)",
+       "type":3,
+       "api":"csp_SP360",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":1
     },
     {
        "key": "Bili",
@@ -202,7 +173,166 @@
        "searchable": 1,
        "quickSearch": 1,
        "filterable": 1,
-       "ext": "https://gitea.com/Pandora2277/Box/raw/branch/master/sub/Bili.json"
+       "ext": "https://dxawi.github.io/6/bili.json"
+    },
+    {
+       "key": "美剧虫",
+       "name": "美剧虫(v1)",
+       "type": 3,
+       "api": "csp_AppYs",
+       "searchable": 1,
+       "quickSearch": 1,
+       "filterable": 1,
+       "ext": "https://meijuchong.com/api.php/v1.vod"
+    },
+    {
+       "key":"300看世界",
+       "name": "300看世界(v2)",
+       "type":3,
+       "api":"csp_AppYsV2",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":1,
+       "ext":"https://300ys.xyz/mogai_api.php/v1.vod"
+    },
+    {
+       "key":"csp_biubiu_厂长资源-蓝光",
+       "name":"厂长资源(XB)",
+       "type":3,
+       "api":"csp_XBiubiu",
+       "searchable":0,
+       "quickSearch":0,
+       "filterable":0,
+       "ext":"https://dxawi.github.io/6/czzy.json"
+    },
+    {
+       "key":"csp_biubiu_在线之家",
+       "name":"在线之家(XB)",
+       "type":3,
+       "api":"csp_XBiubiu",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":0,
+       "ext":"https://dxawi.github.io/6/zxzj.json"
+    },
+    {
+       "key":"csp_biubiu_LIBVIO",
+       "name":"LIBVIO(XB)",
+       "type":3,
+       "api":"csp_XBiubiu",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":0,
+       "ext":"https://dxawi.github.io/6/libv.json"
+    },
+    {
+       "key":"csp_biubiu_COKEMV",
+       "name":"COKEMV(XB)",
+       "type":3,
+       "api":"csp_XBiubiu",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":0,
+       "ext":"https://dxawi.github.io/6/coke.json"
+    },
+    {
+       "key":"csp_biubiu_影视工厂",
+       "name":"影视工厂(XB)",
+       "type":3,
+       "api":"csp_XBiubiu",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":0,
+       "ext":"https://dxawi.github.io/6/ydgc.json"
+    },
+    {
+       "key":"csp_biubiu_555电影",
+       "name":"555电影(XB)",
+       "type":3,
+       "api":"csp_XBiubiu",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":0,
+       "ext":"https://dxawi.github.io/6/555dy.json"
+    },
+    {
+       "key":"csp_biubiu_瓜皮TV",
+       "name":"瓜皮TV(XB)",
+       "type":3,
+       "api":"csp_XBiubiu",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":0,"ext":"https://dxawi.github.io/6/gptv.json"
+    },
+    {
+       "key":"csp_biubiu_蓝光影院",
+       "name":"蓝光影院(XB)",
+       "type":3,
+       "api":"csp_XBiubiu",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":0,
+       "ext":"https://dxawi.github.io/6/lgyy.json"
+    },
+    {
+       "key":"csp_biubiu_剧白白-蓝光",
+       "name":"剧白白(XB)",
+       "type":3,
+       "api":"csp_XBiubiu",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":0,
+       "ext":"https://dxawi.github.io/6/jbb.json"
+    },
+    {
+       "key":"csp_biubiu_达达龟",
+       "name":"达达龟(XB)",
+       "type":3,
+       "api":"csp_XBiubiu",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":0,
+       "ext":"https://dxawi.github.io/6/ddg.json"
+    },
+    {
+       "key":"csp_biubiu_乐猪影视",
+       "name":"乐猪影视(XB)",
+       "type":3,
+       "api":"csp_XBiubiu",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":0,
+       "ext":"https://dxawi.github.io/6/lzys.json"
+    },
+    {
+       "key":"csp_biubiu_口袋影院",
+       "name":"口袋影院(XB)",
+       "type":3,
+       "api":"csp_XBiubiu",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":0,
+       "ext":"https://dxawi.github.io/6/kdyy.json"
+    },
+    {
+       "key":"csp_biubiu_爱港剧",
+       "name":"爱港剧(XB)",
+       "type":3,
+       "api":"csp_XBiubiu",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":0,
+       "ext":"https://dxawi.github.io/6/agj.json"
+    }, 
+    {
+       "key": "csp_xpath_网络搜集库qiumi",
+       "name":"球迷看球(XPF)️️️",
+       "type": 3,
+       "api": "csp_XPathFilter",
+       "searchable": 1,
+       "quickSearch": 1,
+       "filterable": 1,
+       "ext": "https://dxawi.github.io/6/qm.json"
     },
     {
        "key":"csp_xpath_huya",
@@ -212,28 +342,78 @@
        "searchable":1,
        "quickSearch":1,
        "filterable":1,
-       "ext":"http://home.jundie.top:81/Cat/MaooXP/huya2.json"
+       "ext":"https://dxawi.github.io/6/huya.json"
     },
-    {"key":"csp_biubiu_厂长资源-蓝光","name":"厂长资源-蓝光(XB)","type":3,"api":"csp_XBiubiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://home.jundie.top:81/Cat/MaooXB/厂长资源-蓝光.json"},
-    {"key":"csp_biubiu_在线之家","name":"在线之家(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://home.jundie.top:81/Cat/MaooXB/在线之家.json"},
-    {"key":"csp_biubiu_LIBVIO","name":"LIBVIO(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://home.jundie.top:81/Cat/MaooXB/LIBVIO.json"},
-    {"key":"csp_biubiu_COKEMV","name":"COKEMV(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://home.jundie.top:81/Cat/MaooXB/COKEMV.json"},
-    {"key":"csp_biubiu_影视工厂","name":"影视工厂(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://home.jundie.top:81/Cat/MaooXB/影视工厂.json"},
-    {"key":"csp_biubiu_555电影","name":"555电影(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://home.jundie.top:81/Cat/MaooXB/555电影.json"},
-    {"key":"csp_biubiu_瓜皮TV","name":"瓜皮TV(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://home.jundie.top:81/Cat/MaooXB/瓜皮TV.json"},
-    {"key":"csp_biubiu_蓝光影院","name":"蓝光影院(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://home.jundie.top:81/Cat/MaooXB/蓝光影院.json"},
-    {"key":"csp_biubiu_骚火电影","name":"骚火电影(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://home.jundie.top:81/Cat/MaooXB/骚火电影.json"},
-    {"key":"csp_biubiu_剧白白-蓝光","name":"剧白白-蓝光(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://home.jundie.top:81/Cat/MaooXB/剧白白-蓝光.json"},
-    {"key":"csp_biubiu_达达龟","name":"达达龟(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://home.jundie.top:81/Cat/MaooXB/达达龟.json"},
-    {"key":"csp_biubiu_乐猪影视","name":"乐猪影视(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://home.jundie.top:81/Cat/MaooXB/乐猪影视.json"},
-    {"key":"csp_biubiu_口袋影院","name":"口袋影院(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://home.jundie.top:81/Cat/MaooXB/口袋影院.json"},
-    {"key":"csp_biubiu_爱港剧","name":"爱港剧(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://home.jundie.top:81/Cat/MaooXB/爱港剧.json"},
-    {"key":"csp_xpath_zxzj2","name":"在线之家(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://home.jundie.top:81/Cat/MaooXP/zxzj2.json"},
-    {"key":"csp_xpath_libv","name":"Libvio(XPF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://home.jundie.top:81/Cat/MaooXP/libv.json"},
-    {"key":"csp_xpath_cokemv","name":"Cokemv(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://home.jundie.top:81/Cat/MaooXP/cokemv.json"},
-    {"key":"csp_xpath_ddg","name":"达达龟(XPF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://home.jundie.top:81/Cat/MaooXP/dadagui.json"},
-    {"key":"csp_xpath_jbb","name":"剧白白(XPF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://home.jundie.top:81/Cat/MaooXP/jubaibai.json"},
-    {"key":"csp_xpath_dm84","name":"动漫巴士(XP)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://home.jundie.top:81/Cat/MaooXP/dm84.json"}
+    {
+       "key":"csp_xpath_zxzj2",
+       "name":"在线之家(XPF)",
+       "type":3,
+       "api":"csp_XPathFilter",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":1,
+       "ext":"https://dxawi.github.io/6/zxzjp.json"
+    },
+    {
+       "key":"csp_xpath_libv",
+       "name":"Libvio(XPF)",
+       "type":3,
+       "api":"csp_XPathMacFilter",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":1,
+       "ext":"https://dxawi.github.io/6/libvp.json"
+    },
+    {
+       "key":"csp_xpath_cokemv",
+       "name":"Cokemv(XPF)",
+       "type":3,
+       "api":"csp_XPathFilter",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":1,
+       "ext":"https://dxawi.github.io/6/cokep.json"
+    },
+    {
+       "key":"csp_xpath_ddg",
+       "name":"达达龟(XPF)",
+       "type":3,
+       "api":"csp_XPathMacFilter",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":1,
+       "ext":"https://dxawi.github.io/6/ddgp.json"
+    },
+    {
+       "key":"csp_xpath_jbb",
+       "name":"剧白白(XPF)",
+       "type":3,
+       "api":"csp_XPathMacFilter",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":1,
+       "ext":"https://dxawi.github.io/6/jbbp.json"
+    },
+    {
+       "key":"csp_xpath_wmkk",
+       "name":"完美看看(XP)",
+       "type":3,
+       "api":"csp_XPath",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":0,
+       "ext":"https://dxawi.github.io/6/wmkk.json"
+    },
+    {
+       "key":"csp_xpath_dm84",
+       "name":"动漫巴士(XP)",
+       "type":3,
+       "api":"csp_XPathFilter",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":0,
+       "ext":"https://dxawi.github.io/6/dm84.json"
+    }
   ],
 
   "parses":[
